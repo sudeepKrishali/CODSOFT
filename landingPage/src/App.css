@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ff7f50;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.hero-section {
+    background-image: url('restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #F0F0F0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section .hero-content {
+    max-width: 600px;
+}
+
+.hero-section h1 {
+    position: relative;
+    font-size: 48px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    font-size: 3rem;
+    padding: 0px 5px;
+}
+
+.hero-section p {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero-section .hero-button {
+    padding: 15px 30px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.featured-dishes {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.featured-dishes h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.featured-dishes .dishes-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured-dishes .dish {
+    max-width: 250px;
+}
+
+.featured-dishes .dish img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.featured-dishes .dish h3 {
+    font-size: 24px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a {
+    color: #ff7f50;
+    text-decoration: none;
+}
+
